@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "bong",
+    "price": 1234,
+    "icon": "https://cdn.shopify.com/s/files/1/0796/9789/products/IGPROMO2-9_608x608.jpg?v=1549553318"
+  },
+  {
+    "id": 2,
+    "title": "ganja",
+    "price": 124,
+    "icon": "https://loopnewslive.blob.core.windows.net/liveimage/sites/default/files/2018-06/Yp8GLECKkQ.jpg"
+  },
+  {
+    "id": 3,
+    "title": "pineapple",
+    "price": 34,
+    "icon": "https://cdn.shopify.com/s/files/1/0584/3841/products/100-polyester-yummy-world-amy-pineapple-plush-1_2048x.jpg?v=1519402620"
+  }
+]
