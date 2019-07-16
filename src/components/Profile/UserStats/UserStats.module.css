@@ -1,0 +1,13 @@
+.stats {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  color: #123123;
+}
+
+.count {
+  color: #321321;
+}

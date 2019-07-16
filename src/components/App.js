@@ -1,20 +1,22 @@
 import React from 'react';
-import styled from 'styled-components';
-import Menu from './Menu/Menu';
-import products from './products.json';
-
-const Container = styled.div`
-  width: 500 px;
-`;
+import Profile from './Profile/Profile';
+import users from '../assets/users.json';
+import Stats from './Stats/Stats';
+import stats from '../assets/stats.json';
+import PricingPlan from './PricingPlan/PricingPlan';
+import pricingPlan from '../assets/pricing-plan.json';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import transactionHistory from '../assets/transactions.json';
 
 const App = () => {
   return (
-    <Container>
-      <Menu
-        products={products}
-        icon="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj8jML16KzjAhVl_SoKHSwyDWgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.drive.ru%2Fnews%2F5bfeb8a6ec05c4b571000037.html&psig=AOvVaw0ANVTPYXbiTIH6CKdvcwVu&ust=1562932896297777"
-      />
-    </Container>
+    <>
+      <Profile users={users} />
+      <Stats stats={stats} title="Upload stats" />
+      <PricingPlan items={pricingPlan} />
+      <TransactionHistory items={transactionHistory} />
+    </>
   );
 };
+
 export default App;
