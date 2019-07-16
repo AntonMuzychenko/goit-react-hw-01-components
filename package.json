@@ -35,7 +35,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://antonmuzychenko.github.io/react-test/",
+  "homepage": "https://antonmuzychenko.github.io/goit-react-hw-01-components/",
   "devDependencies": {
     "prop-types": "^15.7.2"
   }
