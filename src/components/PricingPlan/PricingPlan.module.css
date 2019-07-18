@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  height: 900px;
+  width: 1400px;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  background-color: #e7ecf2;
+}
+
+.pricingPlan {
+  display: block;
+  width: 150px;
+  height: 164px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-color: #ffffff;
+}
+
+.item {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 0 10px 2px rgba(23, 34, 45, .6);
+}
+
+.capacity,
+.description {
+  color: #bababa;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+.price {
+  color: #7f8c8d;
+  font-size: 30px;
+  font-family: 'Osvald';
+  font-weight: 'Regular';
+
+}

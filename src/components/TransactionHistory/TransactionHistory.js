@@ -15,15 +15,26 @@ const TransactionHistory = ({ items }) => {
 
       <tbody>
         {items.map(elem => (
-          <tr key={elem.id}>
-            <td>{elem.type}</td>
-            <td>{elem.amount}</td>
-            <td>{elem.currency}</td>
+          <tr key={elem.id} className={styles.trLine}>
+            <td className={styles.type}>{elem.type}</td>
+            <td className={styles.amount}>{elem.amount}</td>
+            <td className={styles.currency}>{elem.currency}</td>
           </tr>
         ))}
       </tbody>
     </table>
   );
+};
+
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequared,
+      type: PropTypes.string.isRequared,
+      amount: PropTypes.string.isRequared,
+      currency: PropTypes.string.isRequared,
+    }).isRequired,
+  ).isRequired,
 };
 
 export default TransactionHistory;
